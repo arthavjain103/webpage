@@ -1,0 +1,196 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Roboto&family=Rubik+Glitch&family=Source+Code+Pro&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:wght@200&family=Roboto&family=Rubik+Glitch&family=Source+Code+Pro&display=swap');
+
+
+body{
+background-color:aliceblue;
+}
+.class1{
+    width: 100%;
+    height: 530px;
+    background-image: url('zomatofood2.jpeg');
+    border: 1px solid black;
+    border-radius: 6px;
+    background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+.class2 img{
+    margin-top: 60px;
+    width: 300px;
+    height: 70px;
+   color: black;
+ 
+   font-weight: bold;
+
+}
+.class2{
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex; 
+    justify-content:flex-end;
+
+  
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    list-style: none;
+    margin: 22px;
+    padding-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 2px 15px cyan;
+    
+    
+}
+nav ul li a:hover{
+    color:aqua;
+}
+.text h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.inp{
+  
+    text-align: center;
+
+}
+.inp input{
+    width: 600px;
+    height: 33px;
+    font-size: 19px;
+ border: 2px solid black;
+ border-radius: 8px;
+    padding: 6px;
+  
+}
+.hel h3{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 37px;
+    text-align: center;
+}
+.button1{
+display: flex;
+justify-content: center;
+
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    
+    }
+    .button3{
+        display: flex;
+        justify-content: center;
+        
+        }
+        .button4{
+            display: flex;
+            justify-content: center;
+            
+            }
+            .button5{
+                display: flex;
+                justify-content: center;
+                
+                }
+                .button6{
+                    display: flex;
+                    justify-content: center;
+                    
+                    }
+.btn1{
+    font-size: 20px;
+    width: 400px;
+height: 60px;
+background-color: white;
+border: 1px solid gray;
+border-radius: 8px;
+margin: 15px;
+text-shadow: 1px 1px 0px black;
+
+}
+.btn1:hover{
+color:aliceblue;
+background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content : space-around;
+    background-color:rgb(254, 251, 251);
+    margin-top: 60px;
+    padding: 103px;
+}
+.list ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.list ul li{
+    list-style: none;
+    margin: 22px;
+    padding-right: 40px;
+  
+}
+.list h2{
+    margin-right: 30px;
+
+}
+ 
+.list ul{
+    padding: 0px;
+}
+.list2 {
+    padding: 2px;
+}
+.list ul li a:hover{
+    font-weight:bolder;
+}
+.change::after{
+    content: '';
+    animation: changetext 13s infinite linear;
+    color:cyan;
+}
+
+@keyframes changetext{
+    0%{
+   content: "JAIPUR";
+}
+    10%{content:"Allahabad";}
+    22%{content:"Mumbai";}
+    33%{content:"Kolkata";}
+    41%{content:"Prayagaj";}
+    49%{content:"chennai";}
+    56%{content:"Haridwar";}
+    65%{content:"Kharagpur";}
+    73%{content:"Bhopal";}
+    80%{content:"Dehradun";}
+    87%{content:"Kanpur";}
+    94%{content:"Agra";}
+    98%{content:"Nagpur";}
+    100%{content:"Punjab";}
+   
+
+
+}
+
